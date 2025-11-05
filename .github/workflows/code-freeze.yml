@@ -1,0 +1,11 @@
+name: Code Freeze
+
+on:
+  workflow_dispatch:
+
+jobs:
+  code-freeze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo "Hello, World!"
