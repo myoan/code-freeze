@@ -6,8 +6,6 @@ on:
 jobs:
   code-freeze:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Toggle ruleset status
         env:
