@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Toggle ruleset status
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           RULESET_ID=9484409
 
